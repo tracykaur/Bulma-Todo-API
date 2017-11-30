@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const Task = db.model('Task', {
   todo: { type: String },
-  time: { type: Date },
+  time: { type: String },
   complete: { type: Boolean }
 });
 
